@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codex-testgen"
+version = "0.1.0"
+description = "Automated unit testing for Python AI applications using OpenAI Codex."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "openai>=1.0.0",
+    "pytest>=7.0.0"
+]
